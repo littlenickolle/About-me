@@ -2,3 +2,72 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+body{
+  background-image: url("project.jpg");
+  font-size:15px;
+  margin: 15px;
+  text-align: left;
+}
+
+img{
+  background-color: #fff;
+  padding: 4px;
+  box-shadow: 0 0 0 4px #fff;
+  display: block;
+  margin-left: auto;
+}
+h1 {
+  text-decoration: underline;
+  font-family: Avantgarde
+  font-size:100px;
+  background-image:url(
+    "download (1).jpg");
+}
+
+ h2 {
+    text-align: left;
+    font-size:25px
+  }
+
+  p {
+    text-align: left;
+  }
+table, th, td {
+  border: 1px solid;
+  height:5px;
+  vertical-align:bottom
+  width: 170px;
+  border-spacing: 0px;
+  }
+td {
+  text-align: center;
+}
+th, td {
+  padding: 15px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+th{background-color: #008B8B; color: black;}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+td:nth-child(even) {
+  background-color:#BC8F8F;
+}
+
+tr {
+  border-bottom: 1px solid #66CDAA;
+}
+table {
+  table-layout: fixed ;
+  width: 100% ;
+  border-collapse: collapse ;
+  border: 1px black solid ;
+}
+td {
+  width: 25% ;
+}
